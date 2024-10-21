@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #555;
+}
+.sidebar {
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+    border-right: 1px solid #dee2e6;
+}
+
+.main-content {
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+}
+
+.problem-description, .code-editor {
+    height: calc(100vh - 56px);
+    overflow-y: auto;
+}
+
+.CodeMirror {
+    height: calc(100vh - 150px);
+}
+
+.difficulty {
+    font-weight: bold;
+    color: #5cb85c;
+}
+.footer {
+    border-top: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Pushes the footer to the bottom */
+    width: 100%;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
